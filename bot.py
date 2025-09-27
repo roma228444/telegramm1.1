@@ -8,7 +8,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.utils import executor
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-TOKEN = "<8291777944:AAEgFfl3a-A3Z6yj5v23egmyDUYTbERrvNA>"
+TOKEN = "8291777944:AAEgFfl3a-A3Z6yj5v23egmyDUYTbERrvNA"
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
